@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- SCRIPTS -->
+<meta charset="UTF-8">
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+<link rel="stylesheet" type="text/css" href="http://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+<link rel="stylesheet" type = "text/css" href="mystyle.css">
+</head>
+<body>
+<!-- BODY -->
+<h1 style="text-align:center;" >Truck routing with restrictions</h1>
+<div id="map-car" style="border: 1px solid #000; width: 49.5%; height: 600px; background: #39B6B3; float: left;" ></div>
+<div id="map-truck" style="border: 1px solid #000; width: 49.5%; height: 600px; background: #39B6B3; float: right;" ></div>
+<div
+style="float: left;">
+<p>Route from <b>Dresden</b>  (<i>51.0535°N, 13.74079°E</i>) to <b>Rostock</b> (<i>54.07906°N, 12.13216°E</i>) by <b>CAR</b> </p>
+</div>
+<div
+style="float: right;">
+<p>Route from <b>Dresden</b>  (<i>51.0535°N, 13.74079°E</i>) to <b>Rostock</b> (<i>54.07906°N, 12.13216°E</i>) by <b>TRUCK</b> </p>
+</div>
+<!-- <hr/> -->
+<script type="text/javascript" src="TruckRouting.js"></script>
+<script type="text/javascript" src="CarRouting.js"></script>
+</body>
+</html>
